@@ -1,0 +1,56 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "description": "Pane mit Context-Window, 5h- und Weekly-Limit sowie allen Workflows dieser Session mit Phasen, Agenten und Dauer",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "accent": {
+      "type": "string",
+      "title": "Dashboard: Akzentfarbe",
+      "description": "Überschriften und alles, was gerade läuft. claude ist das Orange deines Themes, lavendel das Tarsis-Lavendel (#5e6ad2).",
+      "default": "claude",
+      "options": [
+        "claude",
+        "lavendel",
+        "blau",
+        "cyan",
+        "grün",
+        "pink",
+        "grau"
+      ]
+    },
+    "bars": {
+      "type": "string",
+      "title": "Dashboard: Balkenfarbe",
+      "description": "ampel färbt nach Füllstand (grün unter 60 %, gelb unter 85 %, sonst rot), akzent nimmt immer die Akzentfarbe.",
+      "default": "ampel",
+      "options": [
+        "ampel",
+        "akzent"
+      ]
+    },
+    "background": {
+      "type": "string",
+      "title": "Dashboard: Hintergrund",
+      "description": "#282c34 ist der Hintergrund deines Terminals. transparent lässt das Grau stehen, das Claude Code unter das Panel legt.",
+      "default": "#282c34",
+      "options": [
+        "#282c34",
+        "transparent",
+        "dunkel",
+        "grau"
+      ]
+    },
+    "border": {
+      "type": "string",
+      "title": "Dashboard: Innerer Rahmen",
+      "description": "Ein Rahmen innen um den Inhalt; den äußeren Rahmen des Panels zeichnet Claude Code selbst.",
+      "default": "aus",
+      "options": [
+        "aus",
+        "akzent",
+        "grau"
+      ]
+    }
+  }
+}

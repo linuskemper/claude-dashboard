@@ -1,0 +1,5 @@
+{
+  "name": "local-mods",
+  "owner": { "name": "linuskemper" },
+  "plugins": [{ "name": "dashboard", "source": "./" }]
+}
