@@ -28,8 +28,6 @@ claude plugin install dashboard --marketplace linuskemper/claude-dashboard
 
 In der Desktop-App, wo `/plugin` nicht läuft: auf + neben dem Prompt-Feld klicken, dann Plugins, Add marketplace mit `linuskemper/claude-dashboard`, dann Add plugin.
 
-Das Repository ist privat: Die Installation klappt nur, wenn du es auf GitHub lesen darfst und dein Rechner schon Git-Zugang zu github.com hat (ein SSH-Schlüssel, oder `gh auth login` und dann `gh auth setup-git`). Die Installation fragt nicht danach.
-
 ## Einstellen
 
 Unter `/config` stehen vier Zeilen: Akzentfarbe, Balkenfarbe (Ampel oder Akzent), Hintergrund und ein innerer Rahmen.
